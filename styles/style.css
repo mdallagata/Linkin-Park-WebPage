@@ -149,3 +149,56 @@ hr {
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
+/*__________________________________________________________________MediaQueries*/
+
+@media (max-width: 1500px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 99%;
+  }
+  h3 {
+    font-size: 99%;
+  }
+  h4 {
+    font-size: 99%;
+  }
+  p {
+    font-size: 20px;
+  }
+  .video {
+    height: 99%;
+    width: 99%;
+  }
+  .logo {
+    height: 50%;
+    width: 50%;
+  }
+}
+@media (max-width: 1300px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 99%;
+  }
+  h3 {
+    font-size: 99%;
+  }
+  h4 {
+    font-size: 99%;
+  }
+  p {
+    font-size: 15px;
+  }
+  .video {
+    height: 99%;
+    width: 99%;
+  }
+  .logo {
+    height: 50%;
+    width: 50%;
+  }
+}
